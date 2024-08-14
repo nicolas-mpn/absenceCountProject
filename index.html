@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CONTADOR DE FALTAS</h1>
+
+    <p>Que dia você faltou?</p>
+
+    <div id="weekDay">
+        <select id="day">
+            <option value="monday">Segunda-feira</option>
+            <option value="tuesday">Terça-feira</option>
+            <option value="wednesday">Quarta-feira</option>
+            <option value="thursday">Quinta-feira</option>
+            <option value="friday">Sexta-feira</option>
+        </select>
+        <button onclick="add()">Adicionar</button> <button id="cancelbtn" onclick="cancel()">Cancelar</button>
+    </div>
+
+    <br>
+
+    <div id="form">
+        <strong id="monday">Segunda-feira:</strong>
+        <p id="monday-p">0</p>
+        <strong id="tuesday">Terça-feira:</strong>
+        <p id="tuesday-p">0</p>
+        <strong id="wednesday">Quarta-feira:</strong>
+        <p id="wednesday-p">0</p>
+        <strong id="thursday">Quinta-feira:</strong>
+        <p id="thursday-p">0</p>
+        <strong id="friday">Sexta-feira:</strong>
+        <p id="friday-p">0</p>
+    </div>
+
+    <hr>
+
+    <div id="absences">
+
+        <strong>Português:</strong>
+        <p id="portugues">0</p>
+        <p id="porPor">100</p>
+        <p class="howMuch">24 aulas possiveis</p>
+        <strong>Geografia:</strong>
+        <p id="geografia">0</p>
+        <p id="geoPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+        <strong>Matemática:</strong>
+        <p id="matematica">0</p>
+        <p id="matPor">100</p>
+        <p class="howMuch">24 aulas possiveis</p>
+        <strong>História:</strong>
+        <p id="historia">0</p>
+        <p id="hisPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+        <strong>Empreendedorismo:</strong>
+        <p id="empreendedorismo">0</p>
+        <p id="empPor">100</p>
+        <p class="howMuch">16 aulas possiveis</p>
+        <strong>Ed. Financeira:</strong>
+        <p id="edfinanceira">0</p>
+        <p id="edfPor">100</p>
+        <p class="howMuch">16 aulas possiveis</p>
+        <strong>Química:</strong>
+        <p id="quimica">0</p>
+        <p id="quiPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+        <strong>Projeto de vida:</strong>
+        <p id="projetodevida">0</p>
+        <p id="proPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+        <strong>Biologia:</strong>
+        <p id="biologia">0</p>
+        <p id="bioPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+        <strong>Biotecnologia:</strong>
+        <p id="biotecnologia">0</p>
+        <p id="biotPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+        <strong>Redação:</strong>
+        <p id="redacao">0</p>
+        <p id="redPor">100</p>
+        <p class="howMuch">16 aulas possiveis</p>
+        <strong>Tecnologia:</strong>
+        <p id="tecnologia">0</p>
+        <p id="tecPor">100</p>
+        <p class="howMuch">24 aulas possiveis</p>
+        <strong>Sociologia:</strong>
+        <p id="sociologia">0</p>
+        <p id="socPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+        <strong>Física:</strong>
+        <p id="fisica">0</p>
+        <p id="fisPor">100</p>
+        <p class="howMuch">16 aulas possiveis</p>
+        <strong>Inglês:</strong>
+        <p id="ingles">0</p>
+        <p id="ingPor">100</p>
+        <p class="howMuch">8 aulas possiveis</p>
+
+
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

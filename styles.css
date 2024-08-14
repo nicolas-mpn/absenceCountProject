@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+}
+
+#weekDay,
+#form,
+#absences {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+select {
+    height: 35px;
+    font-size: 15px;
+}
+
+select,
+button,
+strong {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #5cb85c;
+    /* Bootstrap 'success' green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+    /* A darker shade of green */
+
+}
+
+strong {
+    display: block;
+    /* Makes each label appear on its own line */
+    margin-top: 10px;
+}
+
+.howMuch {
+    font-size: small;
+    color: red;
+}
+
+#cancelbtn {
+    background-color: red;
+}
+
+#cancelbtn:hover {
+    background-color: rgb(234, 0, 0);
+}
